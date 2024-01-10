@@ -753,6 +753,7 @@ section.home-release .text .info .links .link {
     position: relative;
     color: var(--black);
     display: inline-block;
+    z-index: 999;
 }
 
 section.home-release .text .info .links .link svg rect {
@@ -786,7 +787,7 @@ section.home-release .gallery .title img {
     height: auto;
     -o-object-fit: cover;
     object-fit: cover;
-    top: -1006px;
+    top: -80%;
 }
 @media (max-width: 768px){
     section.home-release .gallery .title img {
